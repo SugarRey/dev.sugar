@@ -1,0 +1,108 @@
+:root {
+
+}
+
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Segoe UI';
+}
+
+.header-solicited-work {
+ text-align: center;
+ background-color: #007FFF;
+ padding: 6px;
+ color: #fff;
+}
+.header-solicited-work a{
+ color: #dadada
+}
+
+
+.bd-container {
+ max-width: 1024px;
+ margin: auto;
+ /* padding-right: 25px;
+ padding-left: 25px; */
+}
+.naibar-container {
+ border-bottom: 1px solid #EAEEF2;
+}
+.header-menu-navegacion {
+ display: flex;
+ padding-top: 10px;
+}
+
+.header-logo p {
+ color: #007FFF;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+nav {
+ flex: 1;
+ text-align: right;
+}
+nav ul {
+ display: inline-block;
+ list-style-type: none;
+}
+
+nav ul li {
+ display: inline-block;
+ margin-right: 20px;
+}
+
+.icon-menu {
+ border: 1px solid #EAEEF2;
+ padding: 6px;
+ margin-right: 20px;
+ margin-bottom: 10px; 
+ border-radius: 10px;
+ 
+}
+.icon-menu img{
+ color: #007FFF;
+}
+
+
+
+.section-banner-container{ 
+ display: flex;
+ padding: 200px 0;
+ 
+}
+.section-banner-container img{
+ width: 300px;
+ border-radius: 50%;
+}
+.info-section {
+ margin-left: 100px;
+}
+.info-section h1 {
+ color: #132F4C;
+ padding: 15px 0;
+}
+.info-section span {
+ color:#007FFF;
+}
+
+.info-section h3 {
+ color: #132F4C;
+ padding: 15px 0;
+ font-weight: 500;
+}
+
+.info-section p {
+ color: #132F4C;
+ padding: 15px 0;
+}
+
+.btn-download {
+ background-color: #007FFF;
+ border: none;
+ padding: 10px 25px;
+ border-radius: 20px;
+ margin-top: 15px;
+ color: #fff;
+}
