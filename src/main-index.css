@@ -22,15 +22,13 @@
 .bd-container {
  max-width: 1024px;
  margin: auto;
- /* padding-right: 25px;
- padding-left: 25px; */
 }
 .naibar-container {
  border-bottom: 1px solid #EAEEF2;
 }
 .header-menu-navegacion {
  display: flex;
- padding-top: 10px;
+ 
 }
 
 .header-logo p {
@@ -69,12 +67,14 @@ nav ul li {
 
 .section-banner-container{ 
  display: flex;
- padding: 200px 0;
- 
+ padding: 250px 0;
+
 }
 .section-banner-container img{
- width: 300px;
- border-radius: 50%;
+   padding-top: 10px;
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
 }
 .info-section {
  margin-left: 100px;
