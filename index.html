@@ -20,57 +20,166 @@
  <body>
   <header class="container-principal">
    <!-- ?bloque de aviso y solicitud de de trabajo -->
-   <div class="header-solicited-work">
-    <p>Esperando tu propuesta de proyecto para crealo <a href="">Animate ya!!</a></p>
-   </div>
-   <!-- ?Meni de navegacion  -->
-   <div class="naibar-container">
-   <div class="bd-container">
-    <div class="header-menu-navegacion ">
-     <div class="header-logo">
-      <p>SH</p>
-     </div>
-
-     <nav>
-      <ul>
-       <li><a href="#">Works</a></li>
-       <li><a href="#">Blog</a></li>
-       <li><a href="#">Contact</a></li>
-      </ul>
-     </nav>
-
-     <div class="icon-menu">
-       <a href="">
-         <img src="./icons/icons_facebook.svg" alt="">
-      </a>
-     </div>
-
-     <div class="icon-menu">
-       <a href="https://github.com/SugarRey" target="_blank" rel="noopener">
-        <img src="./icons/icons_github.svg" alt="">
-       </a>
-     </div>
+    <div class="header-solicited-work">
+      <p>Esperando tu propuesta de proyecto para crealo <a href="">Animate ya!!</a></p>
     </div>
-   </div>
-  </div>
+    <!-- ?Meni de navegacion  -->
+    <div class="naibar-container">
+      <div class="bd-container">
+        <div class="header-menu-navegacion ">
+          <div class="header-logo">
+            <p>SH</p>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#">Works</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="icon-menu">
+            <a href="">
+              <img src="./icons/icons_facebook.svg" alt="">
+            </a>
+          </div>
+
+          <div class="icon-menu">
+            <a href="https://github.com/SugarRey" target="_blank" rel="noopener">
+              <img src="./icons/icons_github.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
   <section class="banner-container ">
-   <div class="bd-container">
-    <div class="section-banner-container">
-     <img src="./img/profile.jpg" alt="">
+    <div class="bd-container">
+      <div class="section-banner-container">
+        <img src="./img/profile.jpg" alt="">
    
-     <div class="info-section">
-      <h1><span>Hola,</span> Soy Sugar Herrera</h1>
-      <h3>Desarrollador Web</h3>
-      <p>Soy Sugar, diseñador de productos digitales y desarrollador front-end. Disfruto trabajando en proyectos 
-       de diseño de productos y front-end a gran escala que implican la resolución de problemas de diseño 
-       complejos.</p>
-       <button class="btn-download">
-        Download Resume
-       </button>
-     </div>
+        <div class="info-section">
+          <h1><span>Hola,</span> Soy Sugar Herrera</h1>
+          <h3>Desarrollador Web</h3>
+          <p>Soy Sugar, diseñador de productos digitales y desarrollador front-end. Disfruto trabajando en proyectos 
+            de diseño de productos y front-end a gran escala que implican la resolución de problemas de diseño 
+            complejos.</p>
+          <button class="btn-download">Download Resume</button>
+        </div>
+      </div>
     </div>
-   </div>
   </section>
+
+
+
+
+
+  <section class="container-portafolio">
+    <div class="bd-container">
+      <h2 class="title-section">Mi Portafolio</h2>
+      <p class="description">Trabajos mas recientes</p>
+      <div class="slider-container">
+        <section class="container-slider">
+          <div class="slider">
+            <img src="./img/Proyecto01.jpg" alt="">
+            <div class="contenido">
+              <h3>Reto 01 - NTF desing</h3>
+              <button class="btn-download">2022</button>
+              <p>Componente de tarjeta de vista previa de NFT, este reto 
+                fue realizado en Frontend Mentor usando HTML Y CSS .</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="container-blog">
+    <div class="bd-container">
+      <div class="enlace">
+        <p><a href="">Mensajes recientes</a></p>
+        <p class="enlace-right"><a  href="">Ver Todo</a></p>
+      </div>
+      <section class="card">
+        <div class="cont-card">
+          <h3>Facilitador de Intranet Dinamicag</h3>
+          <h3>18 de febrero del 2022 | recusandae </h3>
+          <p>Amet minim mollit non deserunt ullamco est sit 
+            aliqua dolor do amet sint. Velit officia consequat 
+            duis enim velit mollit. sunt nostrud amet. Velit 
+            officia consequat duis enim velit mollit. sunt 
+            nostrud amet</p>
+        </div>
+        <div class="cont-card">
+            <h3>Facilitador de Intranet Dinamicag</h3>
+            <h3>18 de febrero del 2022 | recusandae </h3>
+            <p>Amet minim mollit non deserunt ullamco est sit 
+              aliqua dolor do amet sint. Velit officia consequat 
+              duis enim velit mollit. sunt nostrud amet. Velit 
+              officia consequat duis enim velit mollit. sunt 
+              nostrud amet</p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="container-form">
+    <div class="bd-container">
+      <h2 class="title-section">Contactame</h2>
+      <p class="description">Ponte en contacto con Sugar</p>
+      <form class="form-contacto" action="">
+        <p>
+          <input type="text" placeholder="Nombre">
+        </p>
+        <p>
+          <input type="email" placeholder="Correo">
+        </p>
+        <p>
+          <input type="text" placeholder="asunto">
+        </p>
+        
+        <textarea name="" id="" cols="20" rows="6">Mensaje...</textarea>
+        
+        <p class="btn-r">
+          <input type="submit" class="btn-enviar">
+        </p>
+      
+      </form>
+    </div>
+  </section>
+  <footer class="container-footer">
+    <div class="bd-container">
+      <section class="cont-footer">
+        <div class="cont-info info">
+          <h1 class="title">SH</h1>
+          <h2>Devloper Fullstack</h2>
+        </div>
+        <div class="cont-info">
+          <h2>Acerca de mi</h2>
+          <p>Soy desarrollador de Web que pasa mucho tiempo en mi espacio de 
+            trabajo, centrado en mejorar el rendimiento y la experiencia de usuario 
+            en tus aplicaciones web.
+          </p>
+        </div>
+        <div class="cont-info">
+          <h2>Enlaces rapidos</h2>
+          <p><a href="">Worcks</a></p>
+          <p><a href="">Blog</a></p>
+          <p><a href="">Contacto</a></p>
+        </div>
+      </section>
+      <hr>
+      <div class="info-dev">
+        <p>Copyright &copy; 2022 Sugar.dev</p>
+        <div class="icon-dev">
+          <img src="./icons/dev-facebook.svg" alt="">
+          <img src="./icons/dev_github.svg" alt="">
+          <img src="./icons/dev_linkedin.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
  </body>
 </html>
