@@ -1,5 +1,5 @@
 :root {
-
+   --color-bg: #007FFF;
 }
 
 *{
@@ -10,6 +10,32 @@
 }
 
 /* new actualizacion de portafolio */
+
+.header-container{
+   height: 80vh;
+   width: 50px;
+   background:  var(--color-bg);
+   margin: 40px 70px;
+   position: fixed;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.container-nav {
+   margin: 8px 2px;
+}
+
+.container-nav .container-nav--item{
+   height: auto;
+   margin:  2px 2px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+
+
 
 
 
