@@ -186,16 +186,20 @@
    display: flex;
    justify-content: center;
    line-height: 45px;
+   cursor: pointer;
+   text-decoration: none;
 }
 .button p{
    color: #fdfdfd;
    font-size: 1rem;
+   cursor: pointer;
 }
 .button svg{
    fill: white;
    display: block;
    margin-top: 10px;
    margin-left: 5px;
+   cursor: pointer;
 }
 @media (max-width: 800px){
    .main-container {
