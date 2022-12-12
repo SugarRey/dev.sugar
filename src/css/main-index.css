@@ -98,22 +98,31 @@
    margin-left: 10px;
 }
 .menu-list .list a{
+   width: auto;
+   height: auto;
+   display: block;
    position: relative;
    text-decoration: none;
-   justify-content: center;
+   border: 1px solid red;
 }
+.menu-list .list a svg {
+   border: 1px solid blue;
+}
+
 .menu .menu-list .list a .view-list {
-   padding: 1px 5px;
+   width: 65px;
+   padding: 3px 0;
    border-radius: 4px;
    position: absolute;
+   text-align: center;
    align-items: center;
-   top: -22px;
-   left: -15px;
+   top: -25px;
+   left: -21px;
    color: var(--color-hover);
    font-size: 10px;
    opacity: 1;
    visibility: hidden;
-   background-color: #bbbbbb;
+   background-color: #dcdcdc;
 }
 .menu .menu-list .list:hover{
    border-bottom: 1.5px solid var(--color-hover);
